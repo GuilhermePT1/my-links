@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(-20deg, #302e2e, #12015c, #0376a0, #470263);
+	background-size: 300% 300%;
+	animation: movimento 10s ease infinite;
+	height: 1000px;
+    font-family: sans-serif;
+}
+
+@keyframes movimento {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+img {
+    border-radius: 20px;
+    width: 320px;
+    height: 320px;
+    border: 1px solid aqua;
+}
+
+h1 {
+    color: white;
+    margin-top: 31px;
+    margin-bottom: 8px;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    margin-top: 35px;
+}
+
+li {
+    margin-bottom: 18px;
+    list-style: none;
+}
+
+a {
+   background-color: rgb(6, 175, 175);
+   color: white;
+   padding: 15px;
+   text-decoration: none;
+   display: block;
+   border-radius: 5px;
+}
+
+a:hover{
+    background-color: white;
+    color: rgb(3, 3, 143);
+}
+
+footer {
+    color: white;
+}
+
+.container{
+    width: 320px;
+    text-align: center;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+}
